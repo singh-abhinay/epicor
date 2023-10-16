@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <epicor>
+            <general>
+                <enable>1</enable>
+                <api_url>xxxx</api_url>
+                <epicor_user>xxxx</epicor_user>
+                <epicor_password>xxxx-xxxx</epicor_password>
+                <epicor_guest_entity>xxxx-xxxx</epicor_guest_entity>
+                <epicor_guest_branch>xxxx-xxxx</epicor_guest_branch>
+            </general>
+        </epicor>
+    </default>
+</config>

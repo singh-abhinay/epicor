@@ -1,0 +1,23 @@
+{
+  "name": "abhinay/magento-epicor",
+  "description": "For getting product prices from epicor",
+  "require-dev": {
+    "abhinay/core": "1.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Abhinay",
+      "email": "abhinay111222@gmail.com",
+      "homepage": "http://abhinaypratapsingh.com/",
+      "role": "Support"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Abhinay\\Epicor\\": ""
+    }
+  }
+}

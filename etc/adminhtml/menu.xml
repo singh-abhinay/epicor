@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Abhinay_Epicor::epicor" title="Epicor Integration"
+             translate="title" module="Abhinay_Epicor"
+             parent="Abhinay_Core::Abhinay" sortOrder="30"
+             resource="Abhinay_Epicor::epicor"/>
+
+        <add id="Abhinay_Epicor::config"
+             title="Configurations" module="Abhinay_Epicor"
+             sortOrder="40" parent="Abhinay_Epicor::epicor"
+             action="adminhtml/system_config/edit/section/epicor"
+             resource="Abhinay_Epicor::config"/>
+    </menu>
+</config>
